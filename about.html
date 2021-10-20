@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>About</title>
+        <link rel="stylesheet" href="/bpaproject-repo/scripts/style.css">
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <body>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="/bpaproject-repo/index.html">Home</a>
+              <a href="/bpaproject-repo/about.html">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+          
+          <span id="openButton" onclick="openNav()">&#9776;</span>
+          
+          <script>
+          function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+          }
+          
+          function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+          }
+          </script>
+
+    </body>
+</html>
