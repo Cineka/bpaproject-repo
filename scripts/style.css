@@ -60,12 +60,16 @@ body {
       color: black;
       font-size: 35pt;
       cursor: pointer;
+      margin-left: 1.5%;
+      margin-top: .5%;
       
   }
   #openButton:hover{
     color: rgba(0, 0, 0, 0.425);
     font-size: 37pt;
     cursor:pointer;
+    margin-left: 1.5%;
+    margin-top: .5%;
 }
 #content{
   width: 45%;
