@@ -86,9 +86,10 @@ body {
 }
 .mainImg{
   width: 80%;
+  height: 100%;
   
   position:absolute;
-  left: 52%;
+  left: 60%;
   top:50%;
   transform: translate(-50%, -50%);
 }
