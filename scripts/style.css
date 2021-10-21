@@ -8,7 +8,7 @@ body {
   font-family:'Roboto';
   font-weight:300;
   font-size:32px;
-  padding-top:40vh;
+  padding-top: 20%;
   height:100vh;
   overflow:hidden;
   -webkit-backface-visibility: hidden;
@@ -30,7 +30,7 @@ div:first-of-type {    /* For increasing performance
 }
 
 div:last-of-type {
-  width:0px;
+  width:0%;
   animation: reveal 7s ;
 }
 
@@ -43,14 +43,14 @@ div:last-of-type span {
     0% {opacity:0;}
     20% {opacity:1;}
     80% {opacity:1;}
-    100% {opacity:0;}
+    100% {opacity:1;}
 }
 
 @keyframes slidein {
-    0% { margin-left:-800px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
+    0% { margin-left:-1%; }
+    20% { margin-left:-1%; }
+    35% { margin-left:0%; }
+    100% { margin-left:0%;}
 }
 
 @keyframes reveal {
@@ -58,12 +58,11 @@ div:last-of-type span {
     20% {opacity:1;width:0px;}
     30% {width:355px;}
     80% {opacity:1;}
-    100% {opacity:0;width:355px;}
+    100% {opacity:1;width:355px;}
 }
 
-
 p {
-  font-size:12px;
+  font-size:16pt;
   color:#000000;
-  margin-top:200px;
+  margin-top:20%;
 }
