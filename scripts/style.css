@@ -1,90 +1,69 @@
-#bgColor{
-    background-color:#f7f9fb;
-}
-/* ^ Was bisque */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
 body {
-    font-family: 'Lato', sans-serif;
-  }
-  
-  .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-  
-  .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-  }
-  
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-    }
-  }
-
-  #openButton{
-      color: black;
-      font-size: 35pt;
-      cursor: pointer;
-      
-  }
-  #openButton:hover{
-    color: rgba(0, 0, 0, 0.425);
-    font-size: 37pt;
-    cursor:pointer;
+  text-align:left;
+  margin-left: 200px;
+  color:#000000;
+  background-color: #F8F4E3;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:32px;
+  padding-top:40vh;
+  height:100vh;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
 }
-#content{
-  width: 45%;
-    height: 80%;
-    background-color: #8fc1e3c4;
-    border-radius: 5px;
-    border: 2px solid rgb(56, 55, 55);
-    overflow-y: scroll;
 
-    position:absolute;
-    left: 50%;
-    top:50%;
-    transform: translate(-50%, -50%);
+div {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
 }
-.mainImg{
-  width: 80%;
-  
-  position:absolute;
-  left: 52%;
-  top:50%;
-  transform: translate(-50%, -50%);
+
+div:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s ;
+}
+
+div:last-of-type {
+  width:0px;
+  animation: reveal 7s ;
+}
+
+div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s ;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+
+p {
+  font-size:12px;
+  color:#000000;
+  margin-top:200px;
 }
