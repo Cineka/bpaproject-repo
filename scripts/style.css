@@ -1,6 +1,4 @@
-#bgColor{
-    background-color:#f7f9fb;
-}
+
 /* ^ Was bisque */
 body {
     font-family: 'Lato', sans-serif;
@@ -92,4 +90,7 @@ body {
   left: 60%;
   top:50%;
   transform: translate(-50%, -50%);
+}
+.bgColor{
+background-color: #a0a0a0;
 }
