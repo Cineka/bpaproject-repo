@@ -4,7 +4,7 @@ body {
     font-family: 'Lato', sans-serif;
   }
   
-  .overlay {
+  .overlay  {
     height: 100%;
     width: 0;
     position: fixed;
@@ -26,16 +26,18 @@ body {
   }
   
   .overlay a {
-    padding: 8px;
+    padding: 2px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #F4F9E9;
     display: block;
     transition: 0.3s;
+    
+    
   }
   
   .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: #7f807d;
   }
   
   .overlay .closebtn {
@@ -43,6 +45,7 @@ body {
     top: 20px;
     right: 45px;
     font-size: 60px;
+    border: none;
   }
   
   @media screen and (max-height: 450px) {
@@ -69,6 +72,25 @@ body {
     margin-left: 1.5%;
     margin-top: .5%;
 }
+
+#openButtonW{
+  color: white;
+  font-size: 35pt;
+  cursor: pointer;
+  margin-left: 1.5%;
+  margin-top: .5%;
+  
+}
+#openButtonW:hover{
+color: rgba(255, 255, 255, 0.425);
+font-size: 37pt;
+cursor:pointer;
+margin-left: 1.5%;
+margin-top: .5%;
+}
+
+
+
 #content{
   width: 45%;
     height: 80%;
@@ -117,7 +139,7 @@ background-color: #F8F4E3;
   margin: 0;
 }
 .bgImg{
-  background-image: url(../images/humanTest.png);
+  background-image: url(../images/streetTrees.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
