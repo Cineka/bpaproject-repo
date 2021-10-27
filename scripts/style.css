@@ -157,9 +157,13 @@ background-color: #F8F4E3;
   color: #f4f9e9;
 }
 #topicTxt{
-  font-size: 10vh;
+  font-size: 300%;
   font-family: monospace;
   margin-left: 20%;
-  margin-top: 25%%;
+  margin-top: 30%;
   text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.507);
+}
+.paraTxt{
+  margin-top: 20%;
+  font-size: 15pt;
 }
