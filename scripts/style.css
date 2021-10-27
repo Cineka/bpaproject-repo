@@ -156,3 +156,10 @@ background-color: #F8F4E3;
   background-color: #b4b8ab;
   color: #f4f9e9;
 }
+#topic{
+  position: absolute;
+  top: 40%;
+  margin-left: 10%;
+  color: white;
+  font-size: 32px;
+}
