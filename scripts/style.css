@@ -148,6 +148,11 @@ background-color: #F8F4E3;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bgImg3{
+  background-image: url(../images/swervyRoad.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .homePageColor{
   background-color: #284b63;
   color: #f4f9e9;
@@ -162,6 +167,14 @@ background-color: #F8F4E3;
   text-align: center;
   margin-top: 30%;
   text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.507);
+}
+#topicTxtW{
+  font-size: 5vh;
+  font-family: monospace;
+  color: #F4F9E9;
+  text-align: center;
+  margin-top: 30%;
+  text-shadow: 3px 2px 5px ;
 }
 .paraTxt{
   margin-top: 20%;
