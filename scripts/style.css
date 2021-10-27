@@ -139,7 +139,7 @@ background-color: #F8F4E3;
   margin: 0;
 }
 .bgImg{
-  background-image: url(../images/Monk.png);
+  background-image: url(../images/twoMountain.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -155,4 +155,11 @@ background-color: #F8F4E3;
 .secondPageColor{
   background-color: #b4b8ab;
   color: #f4f9e9;
+}
+#topicTxt{
+  font-size: 10vh;
+  font-family: monospace;
+  margin-left: 20%;
+  margin-top: 25%%;
+  text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.507);
 }
