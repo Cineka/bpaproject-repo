@@ -1,12 +1,15 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Home</title>
-        <link rel="stylesheet" href="/scripts/style.css">
+      <title>Home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="scripts/style.css">
     </head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-</head>
-<body class="bgColor">
+    <body>
+        <div class="w3-row" style="height: 100vh">
+            <div class="w3-col w3-container l6 l2 bgImg3" style="height: 100vh">
 
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -18,14 +21,37 @@
   </div>
 </div>
 
-<span id="openButton" onclick="openNav()">&#9776;</span>
+                <div class="overlay-content">
+                  <a href="/index.html">Home</a>
+                  <a href="/about.html">About</a>
+                  <a href="contenttest.html">Effects</a>
+                  <a href="contenttest2.html">Travel</a>
+                </div>
 
-    <script src="scripts/script.js"></script>
-    <img src="/images/dolphinSwim.png" class="mainImg">
+              </div>
+              <span id="openButtonW" onclick="openNav()">&#9776; Menu</span>
+              <p id="topicTxtW">Welcome to the site!</p>
+            </div>
 
-    <div id="welcomeSign">
-      <p id="mainTitleTxt">Welcome,<br>Help us make a difference</p>
-    </div>
-    
+            <div class="w3-col w3-container l6 l2 homePageColor" style="height: 100vh">  
+              <table>
+                <tr>
+                  <td>
+                    <p class="paraTxt">This site is all about what carbon emmissions are and how they have effected us as a population and the environment. We will also be providing some easy
+                ways to help reduce your carbon footprint.
+              </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <center><img src="/images/Monk.png" width="300vw"></center>
+                  </td>
+                </tr>
+              </table>
+              
+            </div>
+          </div>
+          
+          <script src="scripts/script.js"></script>
     </body>
 </html>
