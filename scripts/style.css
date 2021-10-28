@@ -236,3 +236,11 @@ background-color: #F8F4E3;
 #ordList1{
   font-size: 15pt;
 }
+
+.arrowNav{
+  margin-top: 35vh;
+}
+.arrowNavColor{
+  background-color:  #F4F9E9;
+  
+}
