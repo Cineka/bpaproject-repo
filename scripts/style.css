@@ -206,6 +206,7 @@ background-color: #F8F4E3;
 .paraTxt{
   margin-top: 20%;
   font-size: 15pt;
+  text-align: center;
 }
 .pageContent{
   overflow-y: scroll;
@@ -235,4 +236,16 @@ background-color: #F8F4E3;
 }
 #ordList1{
   font-size: 15pt;
+}
+
+.arrowNav{
+  margin-top: 35vh;
+}
+.arrowNavColor{
+  background-color:  #F4F9E9 !important;
+  color: #000000 !important;
+}
+.arrowNavColor:hover{
+  background-color:  #b6bda7 !important;
+  color: #000000 !important;
 }
