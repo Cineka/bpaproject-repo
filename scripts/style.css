@@ -206,6 +206,7 @@ background-color: #F8F4E3;
 .paraTxt{
   margin-top: 20%;
   font-size: 15pt;
+  text-align: center;
 }
 .pageContent{
   overflow-y: scroll;
