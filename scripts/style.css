@@ -253,19 +253,23 @@ text-align: center;
 margin-left: 15%;
 margin-top: 15%;
 }
-/* The progress container*/
-.progress-container {
-  width: 100%;
-  top: 0;
-  position: fixed;
-  height: 10px;
-  z-index: 1;
-  background: #ccc;
-}
- 
-/* The progress bar (scroll indicator) */
-.progress-bar {
-  height: 8px;
-  background: #145979;;
-  width: 0%;
+
+@media only screen and (max-width: 992px){
+  /* The progress container*/
+  .progress-container {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    height: 10px;
+    z-index: 1;
+    background: #ccc;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: #145979;;
+    width: 0%;
+  }
+
 }
