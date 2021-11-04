@@ -242,10 +242,15 @@ background-color: #F8F4E3;
   transition: 0.3s;
   width: 65%;
   align-items: center;
+  cursor: pointer;
 }
 
 .card:hover {
   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.5);
+}
+
+.cardLink{
+  text-decoration: none;
 }
 
 .container {
