@@ -1,4 +1,4 @@
-//Nav
+//Nav menu 
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
@@ -6,8 +6,9 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
-//
 
+
+//progress bar script
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
