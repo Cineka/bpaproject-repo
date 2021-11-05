@@ -1,0 +1,18 @@
+
+body{
+    background-color: burlywood;
+}
+@media only screen and (min-width: 600px) {
+    .invisible {
+      font-size: 0 !important;/*hide the text using font-size*/
+    
+    }
+    .fa.fa-shopping-cart {
+      display: none; /*show the icon using font-size*/
+    }
+  }
+.diptxt{
+    color: white;
+    font-size: 16pt;
+    margin-left: 35%;
+}
