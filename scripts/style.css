@@ -261,7 +261,28 @@ background-color: #F8F4E3;
 .table1{
 text-align: center;
 margin-left: 15%;
-margin-top: 15%;
+margin-top: 10%;
+}
+
+.aboutButton{
+  background-color: #145979;
+  width: auto;
+  height: 6vh;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.aboutButton:hover{
+  background-color: #145979;
+  width: auto;
+  height: 6vh;
+  border: none;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+.aboutButtonText{
+  color: white;
+  text-decoration: none;
 }
 
 /*scroll bar css*/
