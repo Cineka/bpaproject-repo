@@ -242,10 +242,15 @@ background-color: #F8F4E3;
   transition: 0.3s;
   width: 65%;
   align-items: center;
+  cursor: pointer;
 }
 
 .card:hover {
   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.5);
+}
+
+.cardLink{
+  text-decoration: none;
 }
 
 .container {
@@ -258,6 +263,8 @@ text-align: center;
 margin-left: 15%;
 margin-top: 15%;
 }
+
+/*scroll bar css*/
 @media only screen and (max-width: 992px){
 .scrollDown{
     
@@ -278,8 +285,9 @@ text-align: center;
 margin-top: 30%;
 text-shadow: 3px 2px 5px ;
 }
+}
 
-
+/*progress bar css*/
 @media only screen and (max-width: 992px){
   /* The progress container*/
   .progress-container {
@@ -299,6 +307,7 @@ text-shadow: 3px 2px 5px ;
   }
 
 }
+<<<<<<< HEAD
 
 .myClass {
   display:block;
@@ -326,3 +335,5 @@ text-shadow: 3px 2px 5px ;
     display: none
   }
 }
+=======
+>>>>>>> dac117c9fb73c9ea13ee2d85c6c96ee8e3a6d245
