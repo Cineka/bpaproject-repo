@@ -213,6 +213,15 @@ background-color: #F8F4E3;
   font-size: 15pt;
   text-align: center;
 }
+.paraTxt1{
+  margin-top: 10%;
+  font-size: 15pt;
+  text-align: center;
+}
+.paraTxt2{
+  font-size: 15pt;
+  
+}
 .pageContent{
   overflow-y: scroll;
   height: 100vh;
@@ -373,4 +382,10 @@ text-shadow: 3px 2px 5px ;
   .mobile {
     display: none
   }
+}
+.diagram{
+  width: 75%;
+  margin-left: 12%;
+  margin-top: 8%;
+  margin-bottom: 8%;
 }
