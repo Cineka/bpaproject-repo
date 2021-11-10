@@ -390,3 +390,10 @@ text-shadow: 3px 2px 5px ;
   margin-bottom: 8%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 }
+.fineTxt{
+  text-decoration: none;
+  color: black;
+  font-size: 10pt;
+  font-family: 'Times New Roman';
+  text-align: center;
+}
