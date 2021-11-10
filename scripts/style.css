@@ -391,9 +391,16 @@ text-shadow: 3px 2px 5px ;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 }
 .fineTxt{
-  text-decoration: none;
   color: black;
   font-size: 10pt;
   font-family: 'Times New Roman';
   text-align: center;
+}
+a.fineText{
+  text-decoration: underline;
+  color: black;
+}
+a.fineText:hover{
+  text-decoration: none;
+  color: rgb(59, 59, 59);
 }
