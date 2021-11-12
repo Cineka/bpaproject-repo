@@ -1,0 +1,23 @@
+
+body{
+    background-color: rgb(31, 98, 143);
+}
+@media only screen and (min-width: 600px) {
+    .invisible {
+      font-size: 0 !important;/*hide the text using font-size*/
+    width: 0;
+    height: 0;
+    }
+    .fa.fa-shopping-cart {
+      display: none; /*show the icon using font-size*/
+    }
+  }
+.diptxt{
+    font-size: 3vh;
+  font-weight: 200;
+  font-family: monospace;
+  
+  
+  text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.507);
+    margin-left: 44%;
+}
