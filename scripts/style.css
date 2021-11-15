@@ -405,3 +405,7 @@ a.fineText:hover{
   text-decoration: none;
   color: rgb(59, 59, 59);
 }
+
+.teamBG{
+  background-color: #31708E;
+}
