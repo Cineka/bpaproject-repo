@@ -255,6 +255,26 @@ background-color: #F8F4E3;
   margin-top: 5vh;
   margin-left: 41%
 }
+@media only screen and (max-width: 800px){
+  @media only screen and (max-width: 500px){
+    .buttonNav{
+      margin-top: 5vh;
+      margin-left: 36%
+    }
+    .buttonNav2{
+      margin-top: 5vh;
+      margin-left: 38%
+    }
+  }
+  .buttonNav{
+    margin-top: 5vh;
+    margin-left: 37%
+  }
+  .buttonNav2{
+    margin-top: 5vh;
+    margin-left: 39%
+  }
+}
 .buttonNavColor{
   background-color:  #F4F9E9 !important;
   color: #000000 !important;
