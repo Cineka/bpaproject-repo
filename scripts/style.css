@@ -225,6 +225,12 @@ background-color: #F8F4E3;
   font-size: 15pt;
   
 }
+.paraTxt3{
+  color: rgb(218, 214, 214);
+  margin-top: 10%;
+  font-size: 15pt;
+  text-align: center;
+}
 .dotList{
   color: rgb(36, 35, 35);
 }
