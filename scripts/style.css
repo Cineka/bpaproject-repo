@@ -480,3 +480,19 @@ a.fineText:hover{
   color: white;
   transform: rotateY(180deg);
 }
+
+
+.teamDiv{
+  border-radius: 4px;
+    border: 1.5px solid black;
+    width: 65%;
+    height: 90%;
+    background-color: #65625d62;
+    word-wrap: break-word;
+    
+
+    position:absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
