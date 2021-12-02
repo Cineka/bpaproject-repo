@@ -28,6 +28,7 @@ body{
   width: 300px;
   height: 300px;
   perspective: 1000px;
+  border-color: #284b63;
 }
 
 .flip-card-inner {
