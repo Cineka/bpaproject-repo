@@ -502,3 +502,6 @@ a.fineText:hover{
     top:50%;
     transform: translate(-50%, -50%);
 }
+.scroll{
+  overflow-y: scroll;
+}
